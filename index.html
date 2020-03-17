@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Winecom</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/html" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <app-root></app-root>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <!--For Readmore readless-->
+    <script type="text/javascript">
+        var i = 0;
+
+        function read() {
+            if (!i) {
+                document.getElementById("more").style.display = "inline";
+                document.getElementById("dots").style.display = "none";
+                document.getElementById("read").innerHTML = "Read less";
+                i = 1;
+            } else {
+                document.getElementById("more").style.display = "none";
+                document.getElementById("dots").style.display = "inline";
+                document.getElementById("read").innerHTML = "Read more";
+                i = 0;
+            }
+        }
+    </script>
+
+
+    <!--for hamburger nav-->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "50%";
+            document.getElementById("myNav").style.transition = "1s";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementById("myNav").style.transition = "1s";
+        }
+    </script>
+
+    <!-- Start of the footer-->
+    <!-- <footer class="container-fluid">
+        <div class="row justify-content-center">
+            <p class="text-center">Winecom Copyright &copy; 2019</p>
+        </div>
+        <div class="row justify-content-center">
+            <a href="https://www.facebook.com/winecom"><i id="social-fb"
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+            <a href="https://google.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            <div>
+            </div>
+    </footer> -->
+    <!--End of footer -->
+<script src="runtime-es2015.js" type="module"></script><script src="polyfills-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule></script><script src="polyfills-es5.js" nomodule></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule></script><script src="vendor-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule></script><script src="main-es5.js" nomodule></script></body>
+
+</html>
